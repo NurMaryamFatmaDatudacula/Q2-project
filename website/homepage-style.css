@@ -1,0 +1,614 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #acacac;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+.foot{
+    width: 100%;
+    padding: 70px, 30px, 20px;
+}
+.socmedicons{
+    display: flex;
+    justify-content: center;
+}
+.socmedicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socmedicons a i{
+    font-size: 2em;
+    color: #9e9e9e;
+    opacity: 0.9;
+}
+.socmedicons a:hover{
+    background-color: #575757;
+    transition: 1s;
+
+}
+.socmedicons a:hover i{
+    color: white;
+    transition: 1s;
+}
+.footnav{
+    margin: 30px 0;
+}
+.footnav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footnav ul li a{
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 1s;
+}
+.footnav ul li a:hover{
+    opacity: 1;
+}
+.footbot{
+    background-color: #acacac;
+    padding: 20px;
+    text-align: center;
+}
+.footbot p{
+    color: black;
+}
+.des{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footnav ul{
+        flex-direction: column;
+    }
+    .footnav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: #b8b8b8;
+    width:100%;
+    height: auto;
+    margin-bottom: 30px;
+    transition: 2s;
+}
+nav:hover{
+    transform: scaleY(105%);
+    transform: scaleX(100%);
+    opacity: 1.5;
+}
+img{
+    float: left;
+}
+a.h{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 30px;
+    width: 150px;
+    height: 10px;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+    text-align: center;
+    float: left;
+    transition: 2s;
+}
+a.h:hover{
+    transform: scale(120%);
+    opacity: 1.5;
+}
+.fab {
+    background: url('../website/header pics/sprite.png') no-repeat -152px -40px;
+    width: 40px;
+    height: 72px;
+    float:right;
+    margin-top: 15px;
+    margin-right: 30px;
+    transition: 2s;
+}
+.fab:hover{
+    transform: scale(120%);
+}
+.tt {
+    background: url('../website/header pics/sprite.png') no-repeat 0 -24px;
+    width: 112px;
+    height: 109px;
+    size: 10cm;
+    float:right;
+    margin-right: 30px;
+    transition: 2s;
+}
+
+.tt:hover{
+    transform: scale(110%);
+}
+img.l{
+    margin: 10px;
+}
+    body {
+        background-color: #ffffff;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    div.column{
+        float: left;
+        width: 32.8%;
+        padding: 20px;
+    }
+    div.row{
+        content:"";
+        clear: both;
+        display: table;
+    }
+    span.t{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+    }
+    p.s{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 12px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    a.ss{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 610px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        text-decoration: none;
+        color: black;
+    }
+    a.ss:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 590px;
+        height: 390px;
+        background-color: #ebebeb;
+    }
+    p.b{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 75px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    a.bb{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 610px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        text-decoration: none;
+        color: black;
+    }
+    a.bb:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d1 {
+        border: 3px solid black;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 610px;
+        height: 390px;
+        background-color: #ebebeb;
+    }
+    p.m{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 73px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    a.mm{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        text-decoration: none;
+        color: black;
+    }
+    a.mm:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d2 {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 610px;
+        height: 390px;
+        background-color: #ebebeb;
+    }
+    p.p{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 45px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    a.pp{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        text-decoration: none;
+        color: black;
+    }
+    a.pp:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d3 {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 590px;
+        height: 380px;
+        background-color: #ebebeb;
+    }
+    p.r{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 65px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    p.rr{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 260px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        color: black;
+    }
+    p.rr:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d4 {
+        border: 3px solid black;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 610px;
+        height: 380px;
+        background-color: #ebebeb;
+    }
+    p.sph{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        font-family: Comic Sans MS;
+    }
+    p.sp{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        color: black;
+    }
+    p.sp:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d5 {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 610px;
+        height: 380px;
+        background-color: #ebebeb;
+    }
+    p.am{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 20px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        font-family: Comic Sans MS;
+    }
+    p.ams{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 320px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        color: black;
+    }
+    p.ams:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d6 {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 590px;
+        height: 400px;
+        background-color: #ebebeb;
+    }
+    p.ab{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 45px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        font-family: Comic Sans MS;
+    }
+    p.abb{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        color: black;
+    }
+    p.abb:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d7 {
+        border: 3px solid black;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 610px;
+        height: 400px;
+        background-color: #ebebeb;
+    }
+    p.ex{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 65px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        font-family: Comic Sans MS;
+    }
+    p.exx{
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: #d3d3d3;
+        margin-left: 240px;
+        margin-bottom: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 15px;
+        width: 340px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        color: black;
+    }
+    p.exx:hover{
+        background-color: #999494;
+        border: 3px solid black;
+    }
+    div.d8 {
+        border: 3px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 610px;
+        height: 400px;
+        background-color: #ebebeb;
+    }
+    
+audio{
+    margin-top: 70px;
+    margin-left: 800px;
+}
